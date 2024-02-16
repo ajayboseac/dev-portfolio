@@ -1,0 +1,120 @@
+{
+    "name": "Anju Vijayan",
+    "designation": "FrontEnd Developer",
+    "about": ["Front end Developer with solid experience of ~5 years in Angular and other related UI technologies.", 
+            "My major work has been with the JS stack. I love playing around with new technologies and tools.",
+            "When I am not working, I enjoy cooking and watching movies."],
+    "experience": [
+        {
+            "organization": "SellerApp",
+            "role": "FrontEnd developer",
+            "location": "Bangalore",
+            "from": "July 2018",
+            "till": "December 2021",
+            "description": [
+                "SellerApp is an analytics platform which helps Ecommerce Sellers to scale their revenue through a Self-Served platform. The SaaS product provides intelligence for the top third-party sellers across various Marketplace channels.",
+                "My roles and responsibilities include developing and testing responsive web interfaces for https://sellerapp.com/ and https://dashboard.sellerapp.com/ . I worked with product managers, UX designers to make sure that the website met all design and usability standards."],
+            "projects": [
+                {
+                    "projectName": "SellerApp website Migration to Angular",
+                    "description": "SellerApp’s site was initially developed using AngularJS . The site was moved to angular in this project"
+                },
+                {
+                    "projectName":"Developing SellerApp DashBoard v2.0",
+                    "description":"The existing dashboard was cumbersome and was hard to navigate. A new dashboard was built from scratch which increased the usability and was considerably faster than the previous version.The dashboard was entirely built using Angular."
+                },
+                {
+                    "projectName": "Run The Business work for SellerApp Dashboard and tool",
+                    "description": "There was a lot of work involving implementing new features in the dashboard, incorporating new APIs to the front end, making front end changes as per the design changes etc. This was all done on a regular basis."
+                }
+            ],
+            "technologies": ["HTML",
+                             "CSS", 
+                             "Angular8", 
+                             "Angular9", 
+                             "Bootstrap", 
+                             "Flex", 
+                             "Angular Material", 
+                             "AG Grid",
+                             "Tail Wind CSS",
+                             "Redux"]
+        },
+        {
+            "organization": "Cognizant, Client: CVS Health",
+            "role": "Project Associate",
+            "location": "Bangalore",
+            "from": "January 2022",
+            "till": "April 2023",
+            "description": ["CVS Health is one of America’s leading health solutions companies. I was mainly responsible for developing and maintaining the deals and rewards web app."],
+            "projects": [
+                {
+                    "projectName": "Development / Bug Fixing and Maintenance",
+                    "description": "I was involved in the development of new features, Fixing bugs and was responsible for Running the Business. This involved working with the engineering, product and UX team in an Agile setting."
+                },
+                {
+                    "projectName": "Monorepo Migration",
+                    "description": "When the entire company moved to monorepo, the deals and rewards web app had to move to monorepo as well. As part of this we had to get rid of the bootstrap and use TailWind classes exclusively. Also migrated the app to Angular 14."
+                },
+                {
+                    "projectName": "Developing Reusable Stencil components for Deals And Rewards",
+                    "description": "The reusable components allowed other teams to make use of the capabilities deals and rewards team had built for coupon management."
+                }
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Angular13",
+                "Angular14",
+                "Tailwind CSS",
+                "Bootstrap",
+                "Flex",
+                "Stencil.js",
+                "Jasmine"
+            ]
+        },
+        {
+            "organization":"Cognizant, Client: World Bank Group",
+            "role": "Project Associate",
+            "location": "Bangalore",
+            "from": "May 2023",
+            "till": "now",
+            "description": ["the World Bank Group is a unique global partnership: five institutions working for sustainable solutions that reduce poverty and build shared prosperity in developing countries."],
+            "projects": [
+                {
+                    "projectName":"Development / Bug Fixing and Maintenance",
+                    "description":"I was involved in fixing bugs and was responsible for Running the Business. This involved working with the engineering, product and backend team in an Agile setting."
+                }
+            ], 
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Angular13",
+                "ngx-bootstrap",
+                "Store",
+                "Jasmine"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "college": "Ilahia College of Engineering and Technology",
+            "location": "Kochi",
+            "course": "M-Tech",
+            "from": 2013,
+            "till": 2015,
+            "university": "Mahatma Gandhi University, Kottayam, Kerala",
+            "aggregate": "7.86 CGPA"
+        },
+        {
+            "college": "Mar Athanasius College of Engineering and Technology",
+            "location": "Kochi",
+            "course": "B-Tech",
+            "from": 2009,
+            "till": 2013,
+            "university": "Mahatma Gandhi University, Kottayam, Kerala",
+            "aggregate": "68.26%"
+        }
+    ],
+    "resume": "Anju-Resume.pdf"
+
+}

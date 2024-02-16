@@ -1,0 +1,9 @@
+#navbarSupportedContent {
+    justify-content: center ;
+}
+.nav-link {
+    font-size: 26px;
+    &:hover {
+        text-decoration: underline;
+    }
+}

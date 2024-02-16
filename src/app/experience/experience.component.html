@@ -1,0 +1,11 @@
+<div class="exp-container">
+    <h1 class="mb-5 text-center">Experience</h1>
+    <div *ngFor="let exp of portfolioData.experience" class="exp-list">
+        <h3>{{exp.organization}}, <span>{{exp.location}}</span></h3>
+        <p class="period">{{exp.from}} - {{exp.till}}</p>
+        <div>
+            <p *ngFor="let desc of exp.description">{{desc}}</p>
+        </div>
+        <div><span class="tech-bold">Technologies Used: </span><span *ngFor="let technology of exp.technologies">{{technology}}/</span></div>
+    </div>
+</div>

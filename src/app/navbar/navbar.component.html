@@ -1,0 +1,43 @@
+<!-- <nav class="navbar">
+    
+    <ul class="navbar-links">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/about">About Me</a></li>
+      <li><a routerLink="/experience">Experience</a></li>
+      <li><a routerLink="/education">Education</a></li>
+      <li><a routerLink="/resume">Resume</a></li>
+      <li><a routerLink="/contact">Contact me</a></li>
+    </ul>
+    <div class="navbar-actions">
+    </div>
+  </nav> -->
+
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" routerLink="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about" tabindex="-1" aria-disabled="true">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/experience" tabindex="-1" aria-disabled="true">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/education" tabindex="-1" aria-disabled="true">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/resume" tabindex="-1" aria-disabled="true" (click)="downloadPdf()">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" tabindex="-1" aria-disabled="true">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>

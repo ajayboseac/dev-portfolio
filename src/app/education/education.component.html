@@ -1,0 +1,9 @@
+<div class="education-container">
+    <h1 class="mb-5 text-center">Education</h1>
+    <div *ngFor="let edu of portfolioData.education" class="edu-list">
+        <h3>{{edu.college}}, <span>{{edu.location}} - {{edu.course}}</span></h3>
+        <p class="period">{{edu.from}} - {{edu.till}}</p>
+        <div class="mb-4">University: {{edu.university}}</div>
+        <div>Aggregate: {{edu.aggregate}}</div>
+    </div>
+</div>

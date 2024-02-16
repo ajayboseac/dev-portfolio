@@ -1,0 +1,18 @@
+.education-container{
+    max-width: 1000px;
+    .edu-list {
+        margin-bottom: 4rem;
+            
+        h3 {
+            font-size: 1.6rem;
+            margin-bottom: 0.25rem;
+            span {
+                font-weight: 400;
+            }
+        }
+        .period {
+            font-style: italic;
+            font-weight: 200;
+        }
+    }
+}
